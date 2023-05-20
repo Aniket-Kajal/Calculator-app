@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1 user-scalable=no, shrink-to-fit=no">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Simple Calculator</title>
+	<link rel="stylesheet" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Fjalla+One&display=swap" rel="stylesheet">
+	
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-70447982-5"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-70447982-5');
+</script>
+
+    <meta content='#171825' name='theme-color' />
+
+	<link rel='icon' type='image/x-icon' href='./icon.png' />
+</head>
+
+<body>
+
+	<div class="bg">
+		<img src="./bg.jpg" alt="backg" width="100%" height="100%">
+	</div>
+
+	<div class="container">
+		<h1><a style="text-decoration: none; color: aliceblue; margin-left: 0.25rem;" href="" onclick="location.reload();">MY CALCULATOR</a><img id="historybutton" src="clock.png"></h1 >
+		<div class="calculator">
+			<input type="text" name="screen" id="answer" readonly>
+			<table>
+				<tr>
+					<td><button style="background-color: #D4D4D2;">(</button></td>
+					<td><button style="background-color: #D4D4D2;">)</button></td>
+					<td><button style="background-color: #f01600; font-weight: bold; color: #ecf0f1;">C</button></td>
+					<td><button style="background-color: #FF9500; color: white;">/</button></td>
+				</tr>
+				<tr>
+					<td><button>7</button></td>
+					<td><button>8</button></td>
+					<td><button>9</button></td>
+					<td><button style="background-color: #FF9500;color: white;">X</button></td>
+				</tr>
+				<tr>
+					<td><button>4</button></td>
+					<td><button>5</button></td>
+					<td><button>6</button></td>
+					<td><button style="background-color: #FF9500;color: white;">-</button></td>
+				</tr>
+				<tr>
+					<td><button>1</button></td>
+					<td><button>2</button></td>
+					<td><button>3</button></td>
+					<td><button style="background-color: #FF9500;color: white;">+</button></td>
+				</tr>
+				<tr>
+					<td><button>0</button></td>
+					<td><button style="font-weight: bold; background-color: #D4D4D2;">.</button></td>
+					<td><button style="background-color: #D4D4D2;">%</button></td>
+					<td><button style="background-color: rgb(36, 189, 36); font-weight: bold; color: #ecf0f1;">=</button></td>
+				</tr>
+			</table>
+			<hr style="max-width: 50vw;">
+
+			<div class="last" style="margin-top: 50px;">
+				<p style="font-size: 24px;">Reach Me:</p>
+				<a  href="https://www.linkedin.com/in/aniket-kajal-22930b17a/" target="_blank">
+					<img src="https://img.shields.io/badge/Aniket%20Kajal-0A66C2.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="example"/>
+				  </a>
+				  <a href="mailto:aniketkajal2000@gmail.com">
+					<img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
+					<a  href="https://www.facebook.com/aniket.kajal.56" target="_blank">
+						<img src="https://img.shields.io/badge/Aniket%20Kajal-%231877F2.svg?style=for-the-badge&logo=Facebook&logoColor=white" alt="example"/>
+					  </a>
+			</div>
+		</div>
+	</div>
+
+	
+	
+	
+	<div id="bar1" class = "bars"></div>
+	<div id="bar2" class = "bars"></div>
+	<div id="history">
+	</div>
+    <div id="turn">
+    ROTATE YOUR DEVICE TO USE
+	</div>
+</body>
+<script src="hist.js"></script>
+<script src="calc.js"></script>
+</html>
