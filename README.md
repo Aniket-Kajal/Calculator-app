@@ -1,6 +1,6 @@
 # 🧮Calculator-app
 
-Building a Web calculator is a great project, especially if you have just started learning JavaScript.
+Building a web calculator is a great project, especially if you have just started learning JavaScript.
 This project covers the interactions with UI and key JavaScript methods.
 
 This app performs many functionalities that include addition, subtraction, multiplication, division, delete, all-clear, and 
