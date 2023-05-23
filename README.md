@@ -3,7 +3,7 @@
 Building a web calculator is a great project, especially if you have just started learning JavaScript.
 This project covers the interactions with UI and key JavaScript methods.
 
-The app performs many functionalities that include addition, subtraction, multiplication, division, delete, all-clear, and 
+This app performs many functionalities that include addition, subtraction, multiplication, division, delete, all-clear, and 
 the ability to use decimal numbers in performing these operations.
 
 ** Another functionality that this app performs is retrieving data from past calculations that the user might have performed 
